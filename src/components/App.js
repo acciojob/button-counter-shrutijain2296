@@ -5,9 +5,7 @@ import ButtonCounter from "./ButtonCounter";
 
 const App = () => {
   return (
-    <div>
-        {/* Do not remove the main div */}
-    </div>
+  <ButtonCounter />
   )
 }
 
