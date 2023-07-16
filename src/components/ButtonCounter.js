@@ -5,12 +5,12 @@ const ButtonCounter = () =>{
 
 
     function increaseCount(){
-        setCount(count+1);
+        setCount( count+1 );
     }
 
     return(
         <div>
-             <h1>Button clicked {count} times</h1>
+             <p>Button clicked {count} times</p>
              <button onClick = {increaseCount}>Click me</button>
         </div>
     )
